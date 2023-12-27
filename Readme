@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elegant Wedding Invitation</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+    }
+
+    .container {
+      width: 80%;
+      margin: 50px auto;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    h1, h2, p {
+      color: #333;
+    }
+
+    .details {
+      margin-top: 20px;
+      border-top: 1px solid #eee;
+      padding-top: 20px;
+    }
+
+    .rsvp {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .rsvp a {
+      display: inline-block;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .rsvp a:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <h1>Wedding Invitation</h1>
+    </div>
+    <div class="content">
+      <h2>You are invited to the wedding of</h2>
+      <h1>John Doe & Jane Smith</h1>
+      <p>Join us as we celebrate the union of two hearts in love.</p>
+
+      <div class="details">
+        <h2>Details</h2>
+        <p>Date: Saturday, January 1, 2024</p>
+        <p>Time: 5:00 PM</p>
+        <p>Venue: Elegant Venue, City</p>
+      </div>
+    </div>
+
+    <div class="rsvp">
+      <p>Kindly RSVP by December 15, 2023</p>
+      <a href="#">RSVP Now</a>
+    </div>
+  </div>
+
+</body>
+</html>
